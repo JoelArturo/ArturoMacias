@@ -1,0 +1,126 @@
+/*
+===============================================================================================
+                               FONTS	
+===============================================================================================
+*/
+@font-face {
+  font-family: Quicksand;
+  src: url("../fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url("../fonts/Quicksand-Bold.ttf");
+}
+@font-face {
+  font-family: Quicksand-Light;
+  src: url("../fonts/Quicksand-Light.ttf");
+}
+/*
+===============================================================================================
+                                 	GENERAL STYLES
+===============================================================================================
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #87D37C;
+  font-family: Helvetica, Arial;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*
+===============================================================================================
+                                 	GENERAL CLASSES
+===============================================================================================
+*/
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Quicksand;
+  font-size: 2.3em;
+  color: #6C7A89;
+}
+
+/*
+===============================================================================================
+                               HEADER
+===============================================================================================
+*/
+header {
+  background: #22313F;
+  width: 100%;
+  height: 54px;
+}
+header .logo {
+  float: left;
+}
+header .logo img {
+  width: 70px;
+  position: relative;
+  top: 3px;
+}
+header .logo h1 {
+  font-family: Quicksand-Light;
+  font-size: 2.5em;
+  padding: 0 16px;
+}
+header .fallow {
+  float: right;
+  list-style: none;
+}
+header .fallow li a {
+  display: block;
+  font-size: 1.2em;
+  padding: 16px;
+}
+header .fallow a:hover {
+  background: #FFF;
+  color: #22313F;
+}
+
+/*
+===============================================================================================
+                                 	MAIN STYLES
+===============================================================================================
+*/
+.about {
+  background: #FFF;
+}
+.about .about-me {
+  width: 100%;
+}
+.about .about-me .avatar {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.about .about-me .avatar img {
+  position: relative;
+  left: -100px;
+}
+.about .about-me p {
+  font-size: 1.5em;
+  color: #95A5A6;
+  text-align: center;
+  padding: 20px 0;
+}
