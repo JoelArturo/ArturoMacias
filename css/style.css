@@ -38,6 +38,48 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-family: Quicksand;
+  font-size: 2.3em;
+  color: #6C7A89;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-size: 1.8em;
+  color: #6C7A89;
+}
+
+h3 {
+  font-family: Quicksand;
+  font-size: 1.3em;
+  color: #6C7A89;
+}
+
+h4 {
+  font-family: Quicksand;
+  font-size: 1.2em;
+  color: #6C7A89;
+}
+
+h5 {
+  font-family: Quicksand;
+  font-size: 1em;
+  color: #6C7A89;
+}
+
+h6 {
+  font-family: Quicksand;
+  font-size: 0.8em;
+  color: #6C7A89;
+}
+
+progress {
+  width: 80%;
+  height: 20px;
+  margin: 20px;
+}
+
 /*
 ===============================================================================================
                                  	GENERAL CLASSES
@@ -48,12 +90,6 @@ a {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
-}
-
-h1 {
-  font-family: Quicksand;
-  font-size: 2.3em;
-  color: #6C7A89;
 }
 
 /*
@@ -123,4 +159,15 @@ header .fallow a:hover {
   color: #95A5A6;
   text-align: center;
   padding: 20px 0;
+}
+
+.skills {
+  width: 100%;
+}
+.skills h1 {
+  color: #FFF;
+  margin: 30px 0;
+}
+.skills .skill {
+  background-color: #DADADA;
 }
